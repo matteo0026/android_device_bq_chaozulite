@@ -7,7 +7,6 @@ else
 endif
 
 PRODUCT_COPY_FILES += \
-    bionic/libc/zoneinfo/tzdata:recovery/root/system/usr/share/zoneinfo/tzdata \
     device/bq/chaozulite/kernel:kernel
 
 # Device identifier. This must come after all inclusions
